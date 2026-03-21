@@ -29,7 +29,7 @@ body{
 
 .search-box{
     display: block;
-    width: 400px;
+    width: 500px;
     height: 15px;
     border-radius: 20px;
     border: 1px solid #ccc;
@@ -48,6 +48,3 @@ body{
     margin-left: 50px;
 }
 
-button{
-    
-}

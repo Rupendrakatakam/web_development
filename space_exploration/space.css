@@ -1,19 +1,25 @@
 body{
-text-align: center;
-    background-image: url("universe.webp");
-    color: rgb(243, 246, 247);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    font-family: "Orbitron", sans-serif
+    margin: 0;
+    text-align: center;
+
+    color: #82a5ca;
+
+    font-family: "Orbitron"
     
     
 }
 
-.text{
+#hero{
+    background-image: url("universe.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 10px;
+}
+
+.text{
+    /* padding: 10px; */
     text-align: center;
-    font-family: 'Volkhov';
 }
 
 .btn{
@@ -26,7 +32,7 @@ text-align: center;
     font-size: 19px;
     font-weight: bold;
     padding: 10px;
-    margin: 10px;
+    margin-bottom: 10px;
     width: 100px;
     height: 40px;
     transition: all 0.3s ease;
@@ -35,6 +41,17 @@ text-align: center;
 .orbitron-text {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
+}
+
+#cta{
+    /* text-underline-position: above; */
+    text-decoration: underline;
+}
+
+#isro{
+    width: 100px;
+    height: 100px;
+    
 }

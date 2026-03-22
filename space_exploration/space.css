@@ -1,9 +1,40 @@
 body{
-    align-items: center;
+text-align: center;
+    background-image: url("universe.webp");
+    color: rgb(243, 246, 247);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Orbitron", sans-serif
+    
     
 }
 
 .text{
-    align-items: center;
-    justify-content: center
+    padding: 10px;
+    text-align: center;
+    font-family: 'Volkhov';
+}
+
+.btn{
+    font-family: 'Volkhov';
+    background-color: #0d6277;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    transition: all 0.3s ease;
+}
+
+.orbitron-text {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }

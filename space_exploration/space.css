@@ -20,6 +20,7 @@ body{
 .text{
     /* padding: 10px; */
     text-align: center;
+    text-shadow: 0px 0px 10px black;
 }
 
 .btn{
